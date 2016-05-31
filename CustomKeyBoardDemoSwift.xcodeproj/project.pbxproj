@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		840C97FB1CFC416E00693770 /* KeyboardNumericEntryKeyTextured@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 840C97FA1CFC416E00693770 /* KeyboardNumericEntryKeyTextured@2x.png */; };
 		84DE0B3F1CF80046006B5644 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DE0B3E1CF80046006B5644 /* AppDelegate.swift */; };
 		84DE0B411CF80046006B5644 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DE0B401CF80046006B5644 /* ViewController.swift */; };
 		84DE0B441CF80047006B5644 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84DE0B421CF80047006B5644 /* Main.storyboard */; };
@@ -14,6 +15,10 @@
 		84DE0B491CF80047006B5644 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84DE0B471CF80047006B5644 /* LaunchScreen.storyboard */; };
 		84DE0B541CF80047006B5644 /* CustomKeyBoardDemoSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DE0B531CF80047006B5644 /* CustomKeyBoardDemoSwiftTests.swift */; };
 		84DE0B5F1CF80047006B5644 /* CustomKeyBoardDemoSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DE0B5E1CF80047006B5644 /* CustomKeyBoardDemoSwiftUITests.swift */; };
+		84DE0B6D1CF81130006B5644 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DE0B6C1CF81130006B5644 /* Config.swift */; };
+		84DE0B721CF81480006B5644 /* DCFKeyoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DE0B711CF81480006B5644 /* DCFKeyoard.swift */; };
+		84DE0B7E1CF814AE006B5644 /* KeyboardNumericEntryKeyBackspaceGlyphTextured@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84DE0B761CF814AE006B5644 /* KeyboardNumericEntryKeyBackspaceGlyphTextured@2x.png */; };
+		84DE0B7F1CF814AE006B5644 /* KeyboardNumericEntryKeyPressedTextured@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84DE0B771CF814AE006B5644 /* KeyboardNumericEntryKeyPressedTextured@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		840C97FA1CFC416E00693770 /* KeyboardNumericEntryKeyTextured@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KeyboardNumericEntryKeyTextured@2x.png"; sourceTree = "<group>"; };
 		84DE0B3B1CF80046006B5644 /* CustomKeyBoardDemoSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomKeyBoardDemoSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84DE0B3E1CF80046006B5644 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84DE0B401CF80046006B5644 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +53,10 @@
 		84DE0B5A1CF80047006B5644 /* CustomKeyBoardDemoSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomKeyBoardDemoSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84DE0B5E1CF80047006B5644 /* CustomKeyBoardDemoSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomKeyBoardDemoSwiftUITests.swift; sourceTree = "<group>"; };
 		84DE0B601CF80047006B5644 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84DE0B6C1CF81130006B5644 /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		84DE0B711CF81480006B5644 /* DCFKeyoard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DCFKeyoard.swift; sourceTree = "<group>"; };
+		84DE0B761CF814AE006B5644 /* KeyboardNumericEntryKeyBackspaceGlyphTextured@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KeyboardNumericEntryKeyBackspaceGlyphTextured@2x.png"; sourceTree = "<group>"; };
+		84DE0B771CF814AE006B5644 /* KeyboardNumericEntryKeyPressedTextured@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KeyboardNumericEntryKeyPressedTextured@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +107,11 @@
 		84DE0B3D1CF80046006B5644 /* CustomKeyBoardDemoSwift */ = {
 			isa = PBXGroup;
 			children = (
+				84DE0B831CF814B3006B5644 /* Picture */,
 				84DE0B3E1CF80046006B5644 /* AppDelegate.swift */,
+				84DE0B6C1CF81130006B5644 /* Config.swift */,
 				84DE0B401CF80046006B5644 /* ViewController.swift */,
+				84DE0B711CF81480006B5644 /* DCFKeyoard.swift */,
 				84DE0B421CF80047006B5644 /* Main.storyboard */,
 				84DE0B451CF80047006B5644 /* Assets.xcassets */,
 				84DE0B471CF80047006B5644 /* LaunchScreen.storyboard */,
@@ -123,6 +136,16 @@
 				84DE0B601CF80047006B5644 /* Info.plist */,
 			);
 			path = CustomKeyBoardDemoSwiftUITests;
+			sourceTree = "<group>";
+		};
+		84DE0B831CF814B3006B5644 /* Picture */ = {
+			isa = PBXGroup;
+			children = (
+				84DE0B761CF814AE006B5644 /* KeyboardNumericEntryKeyBackspaceGlyphTextured@2x.png */,
+				84DE0B771CF814AE006B5644 /* KeyboardNumericEntryKeyPressedTextured@2x.png */,
+				840C97FA1CFC416E00693770 /* KeyboardNumericEntryKeyTextured@2x.png */,
+			);
+			name = Picture;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +254,9 @@
 			files = (
 				84DE0B491CF80047006B5644 /* LaunchScreen.storyboard in Resources */,
 				84DE0B461CF80047006B5644 /* Assets.xcassets in Resources */,
+				84DE0B7F1CF814AE006B5644 /* KeyboardNumericEntryKeyPressedTextured@2x.png in Resources */,
+				840C97FB1CFC416E00693770 /* KeyboardNumericEntryKeyTextured@2x.png in Resources */,
+				84DE0B7E1CF814AE006B5644 /* KeyboardNumericEntryKeyBackspaceGlyphTextured@2x.png in Resources */,
 				84DE0B441CF80047006B5644 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,6 +284,8 @@
 			files = (
 				84DE0B411CF80046006B5644 /* ViewController.swift in Sources */,
 				84DE0B3F1CF80046006B5644 /* AppDelegate.swift in Sources */,
+				84DE0B6D1CF81130006B5644 /* Config.swift in Sources */,
+				84DE0B721CF81480006B5644 /* DCFKeyoard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,10 +427,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = CustomKeyBoardDemoSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.duanchuanfen.CustomKeyBoardDemoSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -410,10 +441,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = CustomKeyBoardDemoSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.duanchuanfen.CustomKeyBoardDemoSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 			};
 			name = Release;
 		};
@@ -484,6 +517,7 @@
 				84DE0B651CF80047006B5644 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84DE0B661CF80047006B5644 /* Build configuration list for PBXNativeTarget "CustomKeyBoardDemoSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +526,7 @@
 				84DE0B681CF80047006B5644 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84DE0B691CF80047006B5644 /* Build configuration list for PBXNativeTarget "CustomKeyBoardDemoSwiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +535,7 @@
 				84DE0B6B1CF80047006B5644 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
